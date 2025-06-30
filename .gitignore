@@ -1,1 +1,48 @@
+### React JS
 /Frontend/node_modules
+
+### DotNet Core
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+*.snupkg
+
+# Others
+TestResults/
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+*.cache
+*.log
+
+# OS files
+ehthumbs.db
+Icon?
+Thumbs.db
+Desktop.ini
+
+# Rider
+.idea/
+*.sln.iml
+
+# Dotnet tools
+tools/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
