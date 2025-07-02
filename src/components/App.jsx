@@ -2,6 +2,7 @@ import React from "react";
 import  Header  from "./Common/Header";
 import SideBar from "./Common/SideBar";
 import MainBoard  from "./Dashboard/MainBoard";
+import RouteConfiguration from "./Routing/RouteConfiguration"
 
 export default function App() {
   return (
@@ -23,8 +24,8 @@ export default function App() {
 				<div class="container-fluid">
 					<div class="row">
 						<SideBar />
-            <MainBoard />
-
+            <RouteConfiguration />
+            {/* <MainBoard /> */}
 					</div>
 				</div>
 			</div>
