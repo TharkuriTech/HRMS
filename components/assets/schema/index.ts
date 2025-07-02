@@ -1,1 +1,0 @@
-export { assetSchema } from "./assetSchema";

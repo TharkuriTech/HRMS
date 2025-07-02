@@ -1,1 +1,0 @@
-export { documentSchema } from "./documentSchema";
