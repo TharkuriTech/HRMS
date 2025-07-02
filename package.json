@@ -1,7 +1,7 @@
 {
-  "name": "frontend",
+  "name": "hrms-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "HRMS Frontend",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
