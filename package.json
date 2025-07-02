@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "hrms-frontend",
-  "description": "HRMS Frontend",
+  "name": "ems-website",
+  "description": "Opash EMS Web",
   "version": "1.0.0",
-  "author": "Tharkuri Tech",
+  "author": "Ankit yadav",
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
