@@ -48,7 +48,7 @@ export default function SideBar() {
 										<div class="card-body">
 											<div class="row no-gutters">
 												<div class="col-6 align-items-center text-center">
-													<a href="index-2.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top"><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Dashboard</span></a>												
+													<a href="/" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top"><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Dashboard</span></a>												
 												</div>
 												<div class="col-6 align-items-center shadow-none text-center">											
 													<a href="employees.html" class="text-dark p-4 second-slider-btn ctm-border-right ctm-border-top"><span class="lnr lnr-users pr-0 pb-lg-2 font-23"></span><span class="">Claim</span></a>												
@@ -57,7 +57,7 @@ export default function SideBar() {
 													<a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
 												</div> */}
 												<div class="col-6 align-items-center shadow-none text-center">												
-													<a href="calendar.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-calendar-full pr-0 pb-lg-2 font-23"></span><span class="">Calendar</span></a>												
+													<a href="calendar.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-calendar-full pr-0 pb-lg-2 font-23"></span><span class="">Attedance</span></a>												
 												</div>
 												<div class="col-6 align-items-center shadow-none text-center">											
 													<a href="/leaves" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
