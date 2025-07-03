@@ -69,7 +69,7 @@ export default function MainBoard() {
 							{/* <!-- / Widget -->
 							
 							<!-- Chart --> */}
-							<div class="row">
+							{/* <div class="row">
 								<div class="col-md-6 d-flex">
 									<div class="card ctm-border-radius shadow-sm flex-fill grow">
 										<div class="card-header">
@@ -90,7 +90,7 @@ export default function MainBoard() {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							{/* <!-- / Chart --> */}
 							
 							<div class="row">

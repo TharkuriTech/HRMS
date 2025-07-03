@@ -1,6 +1,12 @@
 import React from "react";
 
 export default function SideBar() {
+	const currentDate = new Date().toLocaleDateString("en-GB", {
+    weekday: "short",  // Sun
+    day: "2-digit",    // 29
+    month: "short",    // Nov
+    year: "numeric",   // 2019
+  });
   return (
        <div class="col-xl-3 col-lg-4 col-md-12 theiaStickySidebar">
 							<aside class="sidebar sidebar-user">
@@ -32,7 +38,7 @@ export default function SideBar() {
 										</div>
 										<div class="user-details">
 											<h4><b>Welcome Admin</b></h4>
-											<p>Sun, 29 Nov 2019</p>
+											<p>{currentDate}</p>
 										</div>
 									</div>
 								</div>
@@ -45,32 +51,32 @@ export default function SideBar() {
 													<a href="index-2.html" class="text-white active p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top"><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Dashboard</span></a>												
 												</div>
 												<div class="col-6 align-items-center shadow-none text-center">											
-													<a href="employees.html" class="text-dark p-4 second-slider-btn ctm-border-right ctm-border-top"><span class="lnr lnr-users pr-0 pb-lg-2 font-23"></span><span class="">Employees</span></a>												
+													<a href="employees.html" class="text-dark p-4 second-slider-btn ctm-border-right ctm-border-top"><span class="lnr lnr-users pr-0 pb-lg-2 font-23"></span><span class="">Claim</span></a>												
 												</div>
-												<div class="col-6 align-items-center shadow-none text-center">												
+												{/* <div class="col-6 align-items-center shadow-none text-center">												
 													<a href="company.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>												
-												</div>
+												</div> */}
 												<div class="col-6 align-items-center shadow-none text-center">												
 													<a href="calendar.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-calendar-full pr-0 pb-lg-2 font-23"></span><span class="">Calendar</span></a>												
 												</div>
 												<div class="col-6 align-items-center shadow-none text-center">											
-													<a href="leave.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
+													<a href="/leaves" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>											
 												</div>
-												<div class="col-6 align-items-center shadow-none text-center">											
+												{/* <div class="col-6 align-items-center shadow-none text-center">											
 													<a href="reviews.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>												
-												</div>
-												<div class="col-6 align-items-center shadow-none text-center">												
+												</div> */}
+												{/* <div class="col-6 align-items-center shadow-none text-center">												
 													<a href="reports.html" class="text-dark p-4 ctm-border-right ctm-border-left"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>												
 												</div>
 												<div class="col-6 align-items-center shadow-none text-center">												
 													<a href="manage.html" class="text-dark p-4 ctm-border-right"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>												
-												</div>
+												</div> */}
 												<div class="col-6 align-items-center shadow-none text-center">											
 													<a href="settings.html" class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>												
 												</div>
-												<div class="col-6 align-items-center shadow-none text-center">											
+												{/* <div class="col-6 align-items-center shadow-none text-center">											
 													<a href="employment.html" class="text-dark p-4 last-slider-btn ctm-border-right"><span class="lnr lnr-user pr-0 pb-lg-2 font-23"></span><span class="">Profile</span></a>												
-												</div>
+												</div> */}
 											</div>
 										</div>
 									</div>
