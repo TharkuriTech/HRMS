@@ -1,6 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 export default function MainBoard() {
+	  const isLoggedIn = useSelector((state) => state.user);
+console.log("isLoggedIn", isLoggedIn);
   return (
     <div class="col-xl-9 col-lg-8  col-md-12">
 							<div class="quicklink-sidebar-menu ctm-border-radius shadow-sm bg-white card grow">

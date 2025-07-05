@@ -1,6 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
+
 
 export default function SideBar() {
+	const UserDetails = useSelector((state) => state.user);
 	const currentDate = new Date().toLocaleDateString("en-GB", {
     weekday: "short",  // Sun
     day: "2-digit",    // 29
@@ -37,7 +40,7 @@ export default function SideBar() {
 											<img src="/assets/img/profiles/img-13.jpg" alt="User Avatar" class="img-fluid rounded-circle" width="100" />
 										</div>
 										<div class="user-details">
-											<h4><b>Welcome Admin</b></h4>
+											<h4><b>Welcome {UserDetails.name}</b></h4>
 											<p>{currentDate}</p>
 										</div>
 									</div>
