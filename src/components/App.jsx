@@ -6,8 +6,8 @@ import Login from "./Auth/Login";
 import { useSelector } from "react-redux";
 
 export default function App() {
- //const [isLoggedIn, setIsLoggedIn] = useState(useSelector((state) => state.user.isLoggedIn));
-  const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
+ const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("isLoggedIn") === "true");
+//   const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
 
 
   // Callback for successful login

@@ -39,7 +39,7 @@ export default function Login({ onLoginSuccess }) {
     if (email === "admin@gmail.com" && password === "admin") {
          dispatch(login({ email, name: "Sirancheevi" }));
         localStorage.setItem("isLoggedIn", "true");
-        //onLoginSuccess();
+        onLoginSuccess();
     } else {
       setErrors({ general: "Invalid email or password" });
     }
