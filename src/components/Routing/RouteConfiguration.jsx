@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import MainBoard from "../Dashboard/MainBoard";
-import Leaves from "../Leave/Leave";
-import Claim from "../Claim/Claim";
-import ClaimCreation from "../Claim/ClaimCreation";
+import MainBoard from "../Dashboard/MainBoard.jsx";
+import Leaves from "../Leave/Leave.jsx";
+import Claim from "../Claim/Claim.jsx";
+import ClaimCreation from "../Claim/ClaimCreation.jsx";
 Leaves
 
 export default function RouteConfiguration() {

@@ -1,8 +1,8 @@
 import React , { useState } from "react";
-import  Header  from "./Common/Header";
-import SideBar from "./Common/SideBar";
-import RouteConfiguration from "./Routing/RouteConfiguration";
-import Login from "./Auth/Login";
+import  Header  from "./Common/Header.jsx";
+import SideBar from "./Common/SideBar.jsx";
+import RouteConfiguration from "./Routing/RouteConfiguration.jsx";
+import Login from "./Auth/Login.jsx";
 import { useSelector } from "react-redux";
 
 export default function App() {
